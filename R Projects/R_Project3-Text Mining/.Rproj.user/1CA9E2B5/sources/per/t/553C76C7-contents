@@ -1,0 +1,11 @@
+setwd('C:\\Users\\madha\\Desktop\\Twenty Thousand Leagues.txt')
+getwd()
+install.packages("tm")#text mining package
+library(tm)
+book = VCorpus(DirSource('.',ignore.case = TRUE,mode="text"))
+str(book)
+setwd('‪C:\Users\madha\Desktop\BigDataAnalytics\chapters')
+setwd('‪C:\\Users\\madha\\Desktop\\BigDataAnalytics\\chapters')
+getwd()
+setwd('‪C:\\Users\\madha\\Desktop\\BigDataAnalytics\\chapters')
+setwd('‪C:\\Users\\madha\\Desktop\\BigDataAnalytics\\chapters')
